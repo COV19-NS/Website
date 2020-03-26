@@ -1,8 +1,3 @@
----
-layout: page
-title: Getting Started
----
-
 # Getting Started
 COV19 relational database contains tables of data relating to patients who visited one of the contributing health institutions.  
 A table is a data storage structure which is similar to a spreadsheet:  

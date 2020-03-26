@@ -1,8 +1,3 @@
----
-layout: page
-title: About
----
-
 # About
 The COV19 is a large dataset comprising de-identified health data of patients  
 diagnosed with acute respiratory infection including patients specifically diagnosed with COVID-19.  
