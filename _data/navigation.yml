@@ -1,0 +1,18 @@
+# Site navigation links
+- title: Home
+  url: /Website
+
+- title: Getting Started
+  url: /Website/start/
+
+- title: About
+  url: /Website/about/
+
+- title: Acknowledgements
+  url: /Website/acknowledgements/
+
+- title: Releases
+  url: /Website/releases/
+
+- title: Cloud
+  url: /Website/Cloud/
