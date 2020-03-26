@@ -6,3 +6,10 @@ diagnosed with acute respiratory infection including patients specifically diagn
 
 ### [Getting Started](start.md)
 ### [About](about.md)
+### [Acknowledgements](acknowledgements.md)
+### [Releases](releases.md)
+### [Cloud](cloud.md)
+
+
+
+
