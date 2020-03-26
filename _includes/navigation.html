@@ -1,63 +1,76 @@
 <style>
-/* The sidebar menu */
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-}
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-/* Style page content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
+    /* The sidebar menu */
+    
+    .sidenav {
+        height: 100%;
+        /* Full-height: remove this if you want "auto" height */
+        width: 160px;
+        /* Set the width of the sidebar */
+        position: fixed;
+        /* Fixed Sidebar (stay in place on scroll) */
+        z-index: 1;
+        /* Stay on top */
+        top: 0;
+        /* Stay at the top */
+        left: 0;
+        background-color: #111;
+        /* Black */
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        padding-top: 20px;
+    }
+    /* The navigation menu links */
+    
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+    }
+    /* When you mouse over the navigation links, change their color */
+    
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    /* Style page content */
+    
+    .main {
+        margin-left: 160px;
+        /* Same as the width of the sidebar */
+        padding: 0px 10px;
+    }
+    /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+    
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+        .sidenav a {
+            font-size: 18px;
+        }
+    }
 </style>
 <div id="mySidenav" class="sidenav">
     <a href="/Website/" {% if page.url=="/" %}style="color: red;" {% endif %}>
       Home
     </a>
-    <a href="/Website/about" {% if page.url=="/about/" %}style="color: red;" {% endif %}>
+    <a href="/Website/about" {% if page.url=="/Website/about/" %}style="color: red;" {% endif %}>
       About
     </a>
-    <a href="/Website/start" {% if page.url=="/start/" %}style="color: red;" {% endif %}>
+    <a href="/Website/start" {% if page.url=="/Website/start/" %}style="color: red;" {% endif %}>
         Getting Started
     </a>
-    <a href="/Website/acknowledgements" {% if page.url=="/acknowledgements/" %}style="color: red;" {% endif %}>
+    <a href="/Website/acknowledgements" {% if page.url=="/Website/acknowledgements/" %}style="color: red;" {% endif %}>
         Acknowledgements
     </a>
-    <a href="/Website/cloud" {% if page.url=="/cloud/" %}style="color: red;" {% endif %}>
+    <a href="/Website/cloud" {% if page.url=="/Website/cloud/" %}style="color: red;" {% endif %}>
         Cloud
     </a>
-    <a href="/Website/request_access" {% if page.url=="/request_access/" %}style="color: red;" {% endif %}>
+    <a href="/Website/request_access" {% if page.url=="/Website/request_access.md/" %}style="color: red;" {% endif %}>
         Request Access
     </a>
-    <a href="/Website/releases" {% if page.url=="/releases/" %}style="color: red;" {% endif %}>
+    <a href="/Website/releases" {% if page.url=="/Website/releases.md/" %}style="color: red;" {% endif %}>
         Releases
     </a>
 </div>
