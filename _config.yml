@@ -1,3 +1,4 @@
 remote_theme: chrisbobbe/jekyll-theme-prologue
 title: COV19
 description: The National SARS-CoV-2 resource
+collections: [sections]
